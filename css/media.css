@@ -1,0 +1,170 @@
+@media screen and (max-width: 1024px) {
+  .hero__inner-title {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left__list-image {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .hero__inner-title {
+    max-width: 540px;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  .hero__inner-title p {
+    width: 100%;
+  }
+
+  .hero-button {
+    width: 90%;
+  }
+
+  .left__side-list {
+    text-align: left;
+  }
+  .service-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero__inner {
+    flex-wrap: wrap;
+  }
+
+  .left__list-display {
+    display: inline-block;
+  }
+
+  .main__inner {
+    margin-top: 300px;
+  }
+
+  .main__inner p {
+    width: 60%;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-info__desc p {
+    max-width: 285px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main__inner {
+    margin-top: 625px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    background: url(../images/sampleSmallBg.png) center cover no-repeat;
+  }
+
+  .main__inner .inner-title__item {
+    font-size: 36px;
+  }
+
+  .service-list__item-center img {
+    max-width: 310px;
+  }
+
+  .main__inner {
+    margin-top: 250px;
+  }
+
+  .footer {
+    margin-top: 180px;
+  }
+
+  .main__inner p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .hero__inner-title h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero__inner-title p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .hero-button {
+    display: block;
+  }
+
+  .hero-button__right {
+    margin-top: 16px;
+  }
+
+  .left__list-display img {
+    width: 50px;
+  }
+
+  .left__side-list span {
+    font-size: 18px;
+  }
+
+  .left__side-list p {
+    font-size: 14px;
+  }
+
+  .item-left__list {
+    margin-top: 0;
+  }
+
+  .right__item-list img {
+    width: 50px;
+  }
+
+  .right__side-list span {
+    font-size: 18px;
+  }
+
+  .right__side-list p {
+    font-size: 14px;
+  }
+
+  .footer-info__desc span {
+    font-size: 22px;
+  }
+  .footer-info__contacts span {
+    font-size: 22px;
+  }
+
+  .footer-info__contacts p {
+    font-size: 14px;
+  }
+
+  .footer-info__social span {
+    font-size: 22px;
+  }
+
+  .footer-info__desc p {
+    max-width: 220px;
+  }
+
+  .footer-info__img img {
+    width: 34px;
+  }
+}

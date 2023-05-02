@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-image: url(../images/sampleNg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: var(--main-family);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+
+.nav {
+  font-size: var(--nav-size);
+}
+
+.nav__links {
+  color: var(--main-color);
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.3s linear;
+}
+
+.nav__links:hover {
+  opacity: 0.7;
+}
+
+.burger-menu {
+  display: none;
+}

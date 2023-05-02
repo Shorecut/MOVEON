@@ -1,0 +1,77 @@
+/*.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/Path\ 194.jpg) center no-repeat;
+  background-size: cover;
+}*/
+
+.hero__inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero__inner-title {
+  max-width: 680px;
+  margin-top: 260px;
+}
+
+h1 {
+  margin: 0;
+  font-size: var(--main-title-size);
+  width: 85%;
+  color: var(--main-color);
+}
+
+.hero__inner-title p {
+  font-size: var(--nav-size);
+  color: var(--main-color);
+  width: 550px;
+}
+
+.hero__inner-image {
+  max-width: 560px;
+  margin-top: 66px;
+  height: auto;
+}
+
+/*.hero__inner-image img {
+  position: absolute;
+  top: 60px;
+  width: 80%;
+  right: 0;
+  left: 30px;
+}*/
+
+.hero__inner-image img {
+  width: 100%;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 62%;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  padding: 16px 23px;
+  font-weight: 700;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  cursor: pointer;
+  background: transparent;
+  transition: 0.3s linear;
+}
+
+.action-btn:hover {
+  border: none;
+}
+
+.action-btn span {
+  font-size: var(--button-title-size);
+  color: var(--main-color);
+}
